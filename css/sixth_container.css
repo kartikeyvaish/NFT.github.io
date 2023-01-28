@@ -1,0 +1,27 @@
+.sixth-container {
+    padding-top: 50px;
+    padding-bottom: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* Communtiy Container */
+
+.sixth-container-community-container {
+    padding: 50px;
+    box-shadow: 5px 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth-description {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+
+}

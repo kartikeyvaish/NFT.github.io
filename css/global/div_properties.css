@@ -1,0 +1,14 @@
+.full_flex {
+    display: flex;
+    flex: 1;
+}
+
+.row_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.coloumn_div {
+    display: flex;
+    flex-direction: column;
+}

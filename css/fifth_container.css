@@ -1,0 +1,18 @@
+.fifth_container {
+    padding-top: 50px;
+    padding-bottom: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.positive_rotate {
+    transform: rotate(10deg);
+}
+
+.negative_rotate {
+    transform: rotate(-10deg);
+}
+
+.shift_right {
+    margin-right: 30px;
+}
