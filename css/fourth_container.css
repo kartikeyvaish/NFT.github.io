@@ -48,3 +48,33 @@
     font-weight: 600;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    .fourth_container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .features_container {
+        height: max-content;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .feature-title-container {
+        font-size: 12px;
+    }
+
+    .feature-icon-container {
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+
+    .features_description {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 10px
+    }
+}
