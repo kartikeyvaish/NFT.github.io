@@ -100,3 +100,46 @@
     margin-right: 50px;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 600px) {
+    .third-container {
+        padding-left: 20px;
+        flex-direction: column;
+    }
+
+    .first-card {
+        margin-bottom: 50px;
+    }
+
+    .first-card-image {
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .third-container-heading {
+        font-size: 30px;
+    }
+
+    .header-icons-container {
+        padding-right: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .carousel_container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .carousel_item_container {
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .first-card {
+        width: 100%;
+    }
+}
