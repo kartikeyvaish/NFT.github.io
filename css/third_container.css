@@ -22,11 +22,6 @@
     width: 400px;
     height: 400px;
     border-radius: 20px;
-    background-image: linear-gradient(to bottom, #ffe179, #ffbeb4);
-}
-
-.last_container_image {
-    background-image: linear-gradient(to bottom, #93a8f2, #a4feff);
 }
 
 .first-card-title {

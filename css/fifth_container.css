@@ -16,3 +16,35 @@
 .shift_right {
     margin-right: 30px;
 }
+
+.fifth-card-item-container {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.fifth-card-image-container {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.card-item-subtitle {
+    width: "100%";
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: "Heebo";
+    font-size: 20px;
+}

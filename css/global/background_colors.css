@@ -3,7 +3,7 @@
 }
 
 .red_background_color {
-    background-color: red;
+    background-color: #e84e58;
 }
 
 .white_background_color {
@@ -60,4 +60,28 @@
 
 .dark_pink_background_color {
     background-color: #ff90cc;
+}
+
+.light_grey_background_color {
+    background-color: #dfe0dd;
+}
+
+.aqua_background_color {
+    background-color: #2bf3ff;
+}
+
+.bright_green_background_color {
+    background-color: #39e27c;
+}
+
+.gradient_theme_background_color {
+    background-image: linear-gradient(to bottom, #9becf8, #fbffff);
+}
+
+.gold_pink_gradient_background_color {
+    background-image: linear-gradient(to bottom, #ffe179, #ffbeb4);
+}
+
+.blue_aqua_gradient_background_color {
+    background-image: linear-gradient(to bottom, #93a8f2, #a4feff);
 }
