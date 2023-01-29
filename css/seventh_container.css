@@ -4,7 +4,9 @@
     padding-left: 80px;
     padding-right: 80px;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .seventh-icons-container {
@@ -19,13 +21,39 @@
     margin-right: 20px;
 }
 
+.seventh-icons-list-container {
+    margin-left: 100px;
+    align-items: center;
+}
+
 .footer_items_container {
     justify-content: space-between;
-    padding-right: 150px;
+    align-items: center;
+    width: 100%;
 }
 
 .footer_items {
     font-family: "Heebo";
     font-size: 20px;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .seventh-container {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer_items {
+        font-family: "Heebo";
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .seventh-icons-list-container {
+        margin-left: 0px;
+        align-items: center;
+        margin-top: 30px;
+    }
 }
