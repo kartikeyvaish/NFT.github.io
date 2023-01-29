@@ -206,3 +206,56 @@
 }
 
 /* ---------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+    .image-card-container {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        overflow: hidden;
+        object-fit: contain;
+        border: 1px solid;
+    }
+
+    .heading-line-one-text {
+        font-size: 20px;
+    }
+
+    .stats-title-text {
+        font-size: 10px;
+    }
+
+    .stats-count-text {
+        font-size: 10px;
+    }
+
+    .scroll-button-container {
+        display: none;
+    }
+
+    .launch-app-button {
+        margin-top: 50px;
+    }
+
+    .heading-line-two-text {
+        margin-top: 50px;
+    }
+
+    .menu-buttons-container {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .sign-in-button-container {
+        margin-top: 20px;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+}
