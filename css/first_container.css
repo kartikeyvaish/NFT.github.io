@@ -186,7 +186,11 @@
     border-radius: 10px;
     overflow: hidden;
     object-fit: contain;
-    border: 1px solid;
+}
+
+.bumpy_border {
+    border: 10px solid transparent;
+    border-image: url(assets/bumpy_border.svg) 30 round;
 }
 
 .card-container {
@@ -214,7 +218,6 @@
         border-radius: 10px;
         overflow: hidden;
         object-fit: contain;
-        border: 1px solid;
     }
 
     .heading-line-one-text {
